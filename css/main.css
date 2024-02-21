@@ -38,18 +38,6 @@
     color: rgb(186, 219, 228);
 }
 
-#attribute {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    text-align: left;
-    font-family: 'Tajawal', Helvetica;
-    font-size: '8px';
-    text-decoration: none;
-    color: #888;
-  }
-
 .image {
   opacity: 1;
   display: block;
