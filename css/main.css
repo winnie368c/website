@@ -31,12 +31,24 @@
 }
 
 #footer a img {
-    transition: filter 0.5s ease;
+    transition: filter 0.3s ease;
 }
 
 #footer a:hover img {
-    filter: grayscale(0) brightness(1.2) saturate(1.5) hue-rotate(180deg);
+    color: rgb(186, 219, 228);
 }
+
+#attribute {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: left;
+    font-family: 'Tajawal', Helvetica;
+    font-size: '8px';
+    text-decoration: none;
+    color: #888;
+  }
 
 .image {
   opacity: 1;
