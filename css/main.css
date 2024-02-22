@@ -74,3 +74,13 @@ h3 {
   margin-top: 40px;
   font-size: 25px
 }
+
+.resume-item {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.location {
+    font-weight: bold;
+}
