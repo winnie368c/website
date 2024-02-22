@@ -1,5 +1,16 @@
 @import url(https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap);
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#content {
+    flex: 1;
+}
+
 .top-right {
   margin-right: 50px;
   margin-top: 50px;
@@ -23,10 +34,6 @@
 }
 
 #footer{
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
   padding: 25px;
   text-align: center;
 }
@@ -77,7 +84,8 @@ h3 {
 }
 
 .resume-item {
-    margin-top: 10px;
+    margin: 0 auto;
+    max-width: 700px;
     display: flex;
     justify-content: space-between;
     text-align: left;
@@ -95,6 +103,8 @@ h3 {
 }
 
 .resume a {
+    margin: 0 auto;
+    max-width: 700px;
     transition: opacity 0.5s ease;
     text-decoration: none;
     color: #888;
