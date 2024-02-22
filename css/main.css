@@ -88,3 +88,15 @@ h3 {
     font-weight: bold;
     font-family: 'Tajawal', Helvetica;
 }
+
+.resume a {
+    transition: opacity 0.5s ease;
+    text-decoration: none;
+    color: #888;
+    font-family: 'Tajawal', Helvetica;
+}
+
+.resume a:hover {
+    color: rgb(186, 219, 228);
+    font-family: 'Tajawal', Helvetica;
+}
