@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap);
 
 body {
     display: flex;
@@ -90,14 +91,15 @@ h3 {
     justify-content: space-between;
     text-align: left;
     font-family: 'Tajawal', Helvetica;
+    padding-bottom: none;
 }
 
 .date {
     text-align: left;
+    font-family: 'Inconsolata', Helvetica;
 }
 
 .location {
-    color: rgb(186, 219, 228);
     font-weight: bold;
     font-family: 'Tajawal', Helvetica;
 }
@@ -109,13 +111,12 @@ h3 {
 
 .resume-link {
     position: relative;
-    padding-block: .5em;
+    padding-block: 0.5em;
     padding-inline-start: var(--space-for-arrow);
     padding-inline-end: var(--button-padding);
     border: none;
-    border-radius: .25em;
+    border-radius: 1em;
     background-color: transparent;
-    font-size: 1.5em;
     cursor: pointer;
     transition: padding 250ms ease, background-color 250ms ease;
     text-decoration: none;
@@ -125,7 +126,8 @@ h3 {
 
 .resume-link::before {
   position: absolute;
-  content: '->';
+  content: '&rarr';
+  color: white;
   background-size: 1em;
   inset-block-start: 50%;
   inset-inline-start: .25em;
@@ -141,7 +143,15 @@ h3 {
   padding-inline-start: var(--button-padding);
   padding-inline-end: var(--space-for-arrow);
   background-color: rgb(186, 219, 228);
+  color: white;
 }
 
 .resume-link:hover::before {
   inset-inline-start: calc(100% - 1.75em);
+}
+
+.resume-link-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
