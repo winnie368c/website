@@ -102,28 +102,46 @@ h3 {
     font-family: 'Tajawal', Helvetica;
 }
 
+:root {
+    --button-padding: 1em;
+    --space-for-arrow: 2em;
+  }
+
 .resume-link {
-    margin: 0 auto;
-    max-width: 700px;
-    transition: opacity 0.5s ease;
+    position: relative;
+    padding-block: .5em;
+    padding-inline-start: var(--space-for-arrow);
+    padding-inline-end: var(--button-padding);
+    border: none;
+    border-radius: .25em;
+    background-color: transparent;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: padding 250ms ease, background-color 250ms ease;
     text-decoration: none;
     color: #888;
     font-family: 'Tajawal', Helvetica;
 }
 
+.resume-link::before {
+  position: absolute;
+  content: '->';
+  background-size: 1em;
+  inset-block-start: 50%;
+  inset-inline-start: .25em;
+  transform: translateY(-50%);
+  padding: .25em;
+  border-radius: 50%;
+  background-color: rgb(186, 219, 228);
+  line-height: 1;
+  transition: inset-inline-start 250ms ease;
+}
+
 .resume-link:hover {
-    color: rgb(186, 219, 228);
+  padding-inline-start: var(--button-padding);
+  padding-inline-end: var(--space-for-arrow);
+  background-color: rgb(186, 219, 228);
 }
 
-.resume-link::after {
-    content: '→';
-    position: absolute;
-    left: 100%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    transition: transform 0.3s;
-}
-
-.resume-link:hover::after {
-    transform: translate(-50%, -50%) translateX(5px);
-}
+.resume-link:hover::before {
+  inset-inline-start: calc(100% - 1.75em);
