@@ -19,6 +19,7 @@
 .centered {
   margin: 0 auto;
   max-width: 700px;
+  font-family: 'Tajawal', Helvetica;
 }
 
 #footer{
@@ -80,7 +81,10 @@ h3 {
     display: flex;
     justify-content: space-between;
     text-align: left;
+    font-family: 'Tajawal', Helvetica;
 }
 .location {
+    color: rgb(186, 219, 228);
     font-weight: bold;
+    font-family: 'Tajawal', Helvetica;
 }
