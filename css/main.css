@@ -83,6 +83,11 @@ h3 {
     text-align: left;
     font-family: 'Tajawal', Helvetica;
 }
+
+.date {
+    text-align: left;
+}
+
 .location {
     color: rgb(186, 219, 228);
     font-weight: bold;
