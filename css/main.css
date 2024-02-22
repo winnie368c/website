@@ -102,7 +102,7 @@ h3 {
     font-family: 'Tajawal', Helvetica;
 }
 
-.resume a {
+.resume-link {
     margin: 0 auto;
     max-width: 700px;
     transition: opacity 0.5s ease;
@@ -111,7 +111,19 @@ h3 {
     font-family: 'Tajawal', Helvetica;
 }
 
-.resume a:hover {
+.resume-link:hover {
     color: rgb(186, 219, 228);
-    font-family: 'Tajawal', Helvetica;
+}
+
+.resume-link::after {
+    content: '→';
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s;
+}
+
+.resume-link:hover::after {
+    transform: translate(-50%, -50%) translateX(5px);
 }
