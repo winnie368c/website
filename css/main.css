@@ -61,7 +61,6 @@ p {
   font-family: 'Tajawal', Helvetica;
   line-height: 1.5;
   color: #191919;
-  padding-bottom: 15px;
 }
 
 li {
@@ -126,7 +125,7 @@ h3 {
 
 .resume-link::before {
   position: absolute;
-  content: '&rarr';
+  content: →;
   color: white;
   background-size: 1em;
   inset-block-start: 50%;
