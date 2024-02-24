@@ -119,21 +119,20 @@ h3 {
     cursor: pointer;
     transition: padding 250ms ease, background-color 250ms ease;
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: 'Tajawal', Helvetica;
 }
 
 .resume-link::before {
   position: absolute;
   content: url('../assets/images/arrow.svg');
-  color: white;
   background-size: 1em;
   inset-block-start: 50%;
   inset-inline-start: .25em;
   transform: translateY(-50%);
   padding: .25em;
   border-radius: 50%;
-  background-color: rgb(186, 219, 228);
+  background-color: pink;
   line-height: 1;
   transition: inset-inline-start 250ms ease;
 }
@@ -142,6 +141,7 @@ h3 {
   padding-inline-start: var(--button-padding);
   padding-inline-end: var(--space-for-arrow);
   background-color: rgb(186, 219, 228);
+  color: white;
 }
 
 .resume-link:hover::before {
