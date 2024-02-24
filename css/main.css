@@ -126,7 +126,7 @@ h3 {
 .resume-link::before {
   position: absolute;
   content: url('../assets/images/right-arrow.png');
-  color: white;
+
   background-size: 1em;
   inset-block-start: 50%;
   inset-inline-start: .25em;
@@ -142,7 +142,6 @@ h3 {
   padding-inline-start: var(--button-padding);
   padding-inline-end: var(--space-for-arrow);
   background-color: rgb(186, 219, 228);
-  color: white;
 }
 
 .resume-link:hover::before {
