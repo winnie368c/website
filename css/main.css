@@ -130,8 +130,8 @@ h3 {
   inset-block-start: 50%;
   inset-inline-start: .25em;
   transform: translateY(-50%);
-  padding: .25em;
-  border-radius: 50%;
+  padding: 7px 5px 5px 5px;
+  border-radius: 30px;
   background-color: rgb(186, 219, 228);
   line-height: 1;
   transition: inset-inline-start 250ms ease;
