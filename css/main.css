@@ -119,7 +119,7 @@ h3 {
     cursor: pointer;
     transition: padding 250ms ease, background-color 250ms ease;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'Tajawal', Helvetica;
 }
 
