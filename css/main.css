@@ -132,7 +132,7 @@ h3 {
   transform: translateY(-50%);
   padding: .25em;
   border-radius: 50%;
-  background-color: pink;
+  background-color: rgb(186, 219, 228);
   line-height: 1;
   transition: inset-inline-start 250ms ease;
 }
