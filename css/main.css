@@ -34,6 +34,15 @@ body {
   font-family: 'Tajawal', Helvetica;
 }
 
+#twitch-link {
+  color: gray;
+  text-decoration: none;
+}
+
+#twitch-link:hover {
+  color:rgb(186, 219, 228)
+}
+
 #footer{
   padding: 25px;
   text-align: center;
