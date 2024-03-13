@@ -40,7 +40,10 @@ body {
 }
 
 #twitch-link:hover {
-  color:rgb(186, 219, 228)
+  color:rgb(186, 219, 228);
+  font-weight: bold;
+  border-bottom: 0px;
+
 }
 
 #footer{
