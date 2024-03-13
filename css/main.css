@@ -37,13 +37,13 @@ body {
 #twitch-link {
   color: gray;
   text-decoration: none;
+  border-bottom: 1.5px solid rgb(186, 219, 228);
+  display: inline;
 }
 
 #twitch-link:hover {
   color:rgb(186, 219, 228);
   font-weight: bold;
-  border-bottom: 0px;
-
 }
 
 #footer{
