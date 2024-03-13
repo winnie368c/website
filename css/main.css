@@ -220,6 +220,7 @@ h3 {
 .image-container:hover .overlay {
   opacity: 1;
   transform: scale(1.1); 
+  bottom: -7px;
 }
 
 .image-container:hover #project-description {
@@ -228,5 +229,9 @@ h3 {
 
 .image-container:hover .project-img {
   transform: scale(1.1);
+}
+
+.image-container .project-img {
+  position: relative;
   transition: transform 0.3s ease;
 }
