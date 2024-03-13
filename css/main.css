@@ -163,6 +163,18 @@ h3 {
     margin-top: 20px;
 }
 
+.project-img {
+  transition: transform 0.3s ease;
+}
+
 .project-img:hover {
-  transform: scale(1.5); 
+  transform: scale(1.1); 
+}
+
+.project-header {
+  font-family: 'Tajawal', Helvetica;
+  color: #191919;
+  margin-top: 40px;
+  font-size: 25px;
+  margin-bottom: 0px;
 }
