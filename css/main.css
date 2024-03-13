@@ -192,3 +192,27 @@ h3 {
   color: #191919;
   margin-top: 0
 }
+
+#project-description {
+  font-size: 14px;
+  font-family: 'Inconsolata', Helvetica;
+  line-height: 1.5;
+  color: #191919;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  box-sizing: border-box;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
