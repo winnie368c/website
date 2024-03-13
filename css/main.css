@@ -216,3 +216,7 @@ h3 {
   position: relative;
   display: inline-block;
 }
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
